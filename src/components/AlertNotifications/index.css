@@ -1,0 +1,134 @@
+/* Write your CSS here */
+.alert-notification-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 25px;
+}
+.success-icon {
+  color: #2dca73;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.heading-description {
+  width: 100%;
+  margin-right: 10px;
+}
+.icons-content-container {
+  display: flex;
+}
+.success-heading {
+  font-size: 20px;
+  color: #2dca73;
+  font-weight: bold;
+}
+.description {
+  color: #475569;
+  font-size: 15px;
+}
+.error-warnning-icon {
+  color: #ff0b37;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.error-heading {
+  font-size: 20px;
+  color: #ff0b37;
+  font-weight: bold;
+}
+.warnning-heading {
+  font-size: 20px;
+  color: #ffb800;
+  font-weight: bold;
+}
+.warnning-icon {
+  color: #ffb800;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.info-icon {
+  color: #0f81e0;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.info-heading {
+  font-size: 20px;
+  color: #0f81e0;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notification-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    align-items: center;
+  }
+  .main-heading {
+    color: #0f172a;
+    font-size: 55px;
+  }
+  .success-icon {
+    color: #2dca73;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .heading-description {
+    width: 100%;
+    margin-right: 20px;
+  }
+  .icons-content-container {
+    display: flex;
+  }
+  .success-heading {
+    font-size: 30px;
+    color: #2dca73;
+    font-weight: bold;
+  }
+  .description {
+    color: #475569;
+    font-size: 20px;
+  }
+  .error-warnning-icon {
+    color: #ff0b37;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .error-heading {
+    font-size: 30px;
+    color: #ff0b37;
+    font-weight: bold;
+  }
+  .warnning-heading {
+    font-size: 30px;
+    color: #ffb800;
+    font-weight: bold;
+  }
+  .warnning-icon {
+    color: #ffb800;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .info-icon {
+    color: #0f81e0;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .info-heading {
+    font-size: 30px;
+    color: #0f81e0;
+    font-weight: bold;
+  }
+}
